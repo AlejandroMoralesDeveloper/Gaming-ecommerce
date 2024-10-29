@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..700;1,100..700&amp;display=swap"
+        rel="stylesheet" class="">
+    <link rel="stylesheet" href="/css/mianstyles.css">
+    <link rel="stylesheet" href="/css/tables.css">
+    <title>Mutants Technoligies</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <input class="chkburger" type="checkbox" id="burger-menu">
+        <label class="nav-button" for="burger-menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        <nav class="main-navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/pages/index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pages/contact.html">
+                        Contacto
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pages/productsAbm.html">
+                        Adm. Productos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pages/userAdmin.html">
+                        Adm. usuarios
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/pages/registrar.html">
+                        Registrarse
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="user-info">
+            <div class="cart-container">
+                <i class="fas fa-shopping-cart" id="shop-cart"></i>
+            </div>
+            <div class="user-container">
+                <img src="https://content.wepik.com/statics/21844573/preview-page0.jpg" alt="">
+            </div>
+        </div>
+    </header>
+    
+
+
+
+    <main class="main-container">
+        <div class="table-container">
+            <table border="1" cellpadding="10" cellspacing="0" class="table-superheroes">
+                <thead>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Superpoder</th>
+                        <th>Películas</th>
+                        <th>Wiki Link</th>
+                        <th>Tools</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/7.png" alt="Deadpool" />
+                        </td>
+                        <td class="name-cell">Deadpool</td>
+                        <td class="description-cell">
+                            Mercenario sarcástico con habilidades de regeneración.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Regeneración</li>
+                                <li>Habilidades de combate</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">Deadpool</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Deadpool" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/2.png" alt="Wolverine" />
+                        </td>
+                        <td class="name-cell">Wolverine</td>
+                        <td class="description-cell">
+                            Mutante con garras de adamantium y factor de curación.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Garras de adamantium</li>
+                                <li>Factor de curación</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">X-Men</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Wolverine" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/1.png" alt="Groot" />
+                        </td>
+                        <td class="name-cell">Groot</td>
+                        <td class="description-cell">
+                            Humanoide arbóreo que puede regenerarse y controlar plantas.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Regeneración</li>
+                                <li>Control de plantas</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">Guardianes de la Galaxia</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Groot" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/4.png" alt="Black Panther" />
+                        </td>
+                        <td class="name-cell">Black Panther</td>
+                        <td class="description-cell">
+                            Rey de Wakanda con habilidades mejoradas y traje de vibranium.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Fuerza mejorada</li>
+                                <li>Agilidad</li>
+                                <li>Traje de vibranium</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">Black Panther</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Pantera_Negra_(c%C3%B3mic)" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/5t.jpeg" alt="Spiderman" />
+                        </td>
+                        <td class="name-cell">Spiderman</td>
+                        <td class="description-cell">
+                            Joven con poderes arácnidos, trepa muros y lanza telarañas.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Trepamuros</li>
+                                <li>Telarañas</li>
+                                <li>Agilidad</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">Spiderman: Homecoming</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Spider-Man" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/3.png" alt="Thor" />
+                        </td>
+                        <td class="name-cell">Thor</td>
+                        <td class="description-cell">
+                            Dios del trueno con el martillo Mjolnir y control del rayo.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Control del rayo</li>
+                                <li>Super fuerza</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">Thor: Ragnarok</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Thor" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="image-cell">
+                            <img class="table-img" src="/assets/images/avatar/6.png" alt="Iron Man" />
+                        </td>
+                        <td class="name-cell">Iron Man</td>
+                        <td class="description-cell">
+                            Genio multimillonario con una armadura de alta tecnología.
+                        </td>
+                        <td class="power-cell">
+                            <ul>
+                                <li>Armadura avanzada</li>
+                                <li>Inteligencia</li>
+                            </ul>
+                        </td>
+                        <td class="movie-cell">Iron Man</td>
+                        <td class="wiki-cell">
+                            <a href="https://es.wikipedia.org/wiki/Iron_Man" target="_blank">Ver Wiki</a>
+                        </td>
+                        <td class="tool-cell">
+                            <button class="btn-edit">
+                                <i class="fa-solid fa-pencil"></i>
+                            </button>
+                            <button class="btn-delete">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <section class="footer-social">
+            FOOTER SOCIALS
+        </section>
+        <section class="footer-brand">
+            FOOTER BRAND
+        </section>
+        <section class="footer-info">
+            FOOTER INFO
+        </section>
+
+    </footer>
+</body>
+
+</html>

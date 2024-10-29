@@ -1,0 +1,93 @@
+@import '/css/mianstyles.css';
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 25px 50px 25px 50px;
+    background-color: var(--color-secundario);
+}
+
+.table-superheroes {
+
+    border: 0px;
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 800px;
+    margin: auto;
+
+    .table-img {
+        height: 70px;
+        width: 70px;
+        object-fit: contain;
+        filter: drop-shadow(4px 4px 4px var(--color-hoverlinks));
+    }
+
+    tr {
+        border-color: var(--color-hoverlinks);
+    }
+
+    th {
+        background-color:var(--color-hoverlinks);
+        padding: 5px;
+    }
+
+    td {
+        padding: 5px;
+    }
+
+    .power-cell {
+        ul {
+            margin-left: 25px;
+        }
+    }
+
+    .name-cell {
+        text-align: center;
+    }
+
+    .movie-cell {
+        text-align: center;
+    }
+
+    
+        .btn-edit{
+            border-width: 1px;
+            border-style: solid;
+            border-color: royalblue;
+            color: royalblue;
+            padding:1px;
+            border-radius: 2px;
+            width:auto;
+
+        }
+
+        .btn-delete {
+            border-width: 1px;
+            border-style: solid;
+            border-color:crimson;
+            color: crimson;
+            padding:1px;
+            border-radius: 2px;
+            width:auto;
+        }    
+    
+}
+
+h1 {
+    height: 10vh;
+    font-size: 10vh;
+    line-height: 1;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+html {
+    overflow-x: auto;
+}
